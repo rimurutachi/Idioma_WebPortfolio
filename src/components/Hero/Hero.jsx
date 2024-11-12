@@ -5,8 +5,8 @@ import { getImageUrl } from "../../utils";
 export const Hero = () => {
     const handleClick = () => {
         const link = document.createElement('a');
-        link.href = 'assets/hero/Idioma_Resume.pdf';
-        link.download = 'IdiomaResume.pdf';
+        link.href = '/Idioma_Resume.pdf';
+        link.download = 'Idioma_Resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
