@@ -1,0 +1,39 @@
+[
+  {
+    "title": "CVSU Website",
+    "imageSrc": "projects/cvsu_website.png",
+    "description": "This project is a collab of aspiring developer students for their school project.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://gerlyntan07.github.io/group1_cvsuwebsite/",
+    "source": "https://github.com/gerlyntan07/group1_cvsuwebsite"
+  },
+  {
+    "title": "IT Company - Codev",
+    "imageSrc": "projects/codev.png",
+    "description": "This project made of the same group in CVSU Website, building this website is a serious work.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://gerlyntan07.github.io/codev/",
+    "source": "https://github.com/gerlyntan07/codev"
+  },
+  {
+    "title": "Inventory Management System",
+    "imageSrc": "projects/mrj_inventory_system.png",
+    "description": "Made for small businesses to modify and handle their products in a inventory. Demo not available.",
+    "skills": ["HTML", "PHP", "Bootstrap", "MySQL"],
+    "source": "https://github.com/rimurutachi/mrj_inventory_system"
+  },
+  {
+    "title": "Alumni Tracking System",
+    "imageSrc": "projects/alumni_system.png",
+    "description": "This project made for tracking alumnis in their respective colleges. Demo not available.",
+    "skills": ["HTML", "PHP", "Bootstrap", "MySQL"],
+    "source": "https://github.com/rimurutachi/alumni_tracking_system"
+  },
+  {
+    "title": "Orderizz",
+    "imageSrc": "projects/orderizz.png",
+    "description": "Order Management System made for Winjhen Shop. Demo not available.",
+    "skills": ["Java", "MySQL", "Bootstrap", "PHP"],
+    "source": "https://drive.google.com/drive/folders/1__MFfA-5c3RPps7Q96fGZBy-7NzIf13g?usp=drive_link"
+  }
+]
