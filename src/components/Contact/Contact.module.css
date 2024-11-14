@@ -31,6 +31,7 @@
     list-style: none;
     gap: 26px;
     margin-right: 10px;
+    margin-top: 15px;
 }
 
 .link {
@@ -64,16 +65,15 @@
     transform: scaleX(1);
 }
 
-/* New styles for the form */
 .contactForm {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-top: 20px;
-    max-width: 600px; /* Set a max width for the form */
-    width: 100%; /* Allow the form to take full width up to max-width */
-    margin-left: auto; /* Center the form */
-    margin-right: auto; /* Center the form */
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contactForm input,
@@ -82,18 +82,18 @@
     font-size: 20px;
     border: 1px solid var(--color-text);
     border-radius: 20px;
-    width: 90%; /* Full width of the form */
-    max-width: 600px; /* Set a max width for inputs */
+    width: 90%;
+    max-width: 600px;
     background-color: var(--color-secondary);
     color: var(--color-text);
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
     margin-left: 10px;
 }
 
 .contactForm input::placeholder,
 .contactForm textarea::placeholder {
     color: var(--color-text);
-    opacity: 0.7; /* Slightly faded placeholder text */
+    opacity: 0.7;
 }
 
 .contactForm button {
@@ -105,8 +105,8 @@
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    max-width: 200px; /* Set a max width for the button */
-    align-self: flex-start; /* Align the button to the start of the form */
+    max-width: 200px;
+    align-self: flex-start;
     margin-left: 10px;
 }
 
@@ -145,7 +145,7 @@
         margin-left: 15px;
         align-items: center;
         font-size: 1rem;
-        max-width: 90%; /* Ensure inputs and button take full width on smaller screens */
+        max-width: 90%;
     }
 
     .contactForm button {
