@@ -1,11 +1,14 @@
 import React from "react";
 
+import { useFadeInOnScroll } from '../../hooks/useFadeInOnScroll';
 import styles from "./About.module.css";
+import appStyles from '../../App.module.css';
 import { getImageUrl } from "../../utils";
 
 export const About = () => {
+    const ref = useFadeInOnScroll();
     return (
-        <section className={styles.container} id="about">
+        <section className={`${styles.container} ${appStyles.hidden}`} ref={ref} id="about">
         <h2 className={styles.title}>About Me!</h2>
         <div className={styles.content}>
             <img src={getImageUrl("about/idioma_1x1.png")} alt="about image" className={styles.aboutImage}/>

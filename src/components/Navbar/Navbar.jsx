@@ -1,13 +1,16 @@
 import React, {useState} from "react";
 
+import { useFadeInOnScroll } from '../../hooks/useFadeInOnScroll';
 import styles from "./Navbar.module.css";
+import appStyles from '../../App.module.css';
 import {getImageUrl} from "../../utils";
 
 export const Navbar = () => {
+    const ref = useFadeInOnScroll();
     const [menuOpen, setMenuOpen] = useState(false);
 
     return ( 
-    <nav className={styles.navbar}>
+    <nav className={` ${styles.navbar}  ${appStyles.hidden}`} ref={ref}>
         <a className={styles.title} href ="/">
         @rimurutachi
         </a>

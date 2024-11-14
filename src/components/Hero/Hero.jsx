@@ -1,8 +1,12 @@
 import React from 'react';
+
+import { useFadeInOnScroll } from '../../hooks/useFadeInOnScroll';
 import styles from "./Hero.module.css";
+import appStyles from '../../App.module.css';
 import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
+    const ref = useFadeInOnScroll();
     const handleClick = () => {
         const link = document.createElement('a');
         link.href = '/Idioma_Resume.pdf';
@@ -13,7 +17,7 @@ export const Hero = () => {
       };
     
     return ( 
-    <section className= {styles.container}>
+    <section className={`${styles.container} ${appStyles.hidden}`} ref={ref}>
         <div className= {styles.content}>
             <h1 className= {styles.title}> Hi, Jimmar Idioma Here! </h1>
             <p className= {styles.description}>A Computer Science student based in Philippines learning and exploring set of skills in this field. Achieving of what's impossible. </p>
